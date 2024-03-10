@@ -24,11 +24,30 @@ https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
  CREATE AND DELETE FILE/DIRECTORY
  1) touch: creates a 0 bite file
  2) cat>filename: create file and allow to write
- 3) nano : create a file if file name is doesn't exist
+ 3) nano : create a file if file name is doesn't exist (control+o, press enter, 
+   control+x)
  4) vi : create a file if file name is doesn't exist
  5) rm : remove a file
  6) mkdir: create a directory
  7) rmdir: remove a empty directory
  8) rm -rf: remove a directory
 
+Manging files or Directories
+1) cp: copy a file
+2) mv: move a file
+3) find: find a file
+4) grep: search for a pattern a file
+5) cd: switch between directories
+6) diff: find content difference in 2 files
+7) sed: search and replace particular pattern
+8) chmod: change file permission
+9) chown: change owner ship of file
+10) file: show what kind of file it is
+
+find command
+  find command is used to find the files or directorie's path, it is exactly like the find option in windows where you can search for a file
+     syntax: find / -option filename
+        -name: for searching a file with its name
+        -user: for files whose owner is a particular user
+        -group:  for files belonging to particular group
  
