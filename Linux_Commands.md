@@ -65,3 +65,15 @@ USER MANAGEMENT
    super user        root         /root              /bin/bash
    system user       ftp,ssh,apache  /var/ftp, etc    /sbin/nologin
    Normal user       visitor,ec2-user /home/username   /bin/bash
+
+/etc/passwd this file contain all the users related information
+
+# Software Management
+  yum is the primary tool for getting,installing, deleting, quering, and managing REDHAT Enterprise Linux RPM Software packages from official Redhat software repositories , as well other third party repositories.
+ #  COMMANDS
+  1) yum install <package name>
+  2) yum remove <package name>
+  3) yum update <package name>
+  4) yum info <package name>
+  5)  yum list available
+  6)  yum list installed
