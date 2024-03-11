@@ -1,16 +1,16 @@
-sudo su - (switch to the root user)
-ls / (/ means root) what and all dir are there in the root
+1) sudo su - (switch to the root user)
+2) ls / (/ means root) what and all dir are there in the root
 https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
 
- date: shows the current date and time
- cal; shows the months's calendar
- uptime: show current uptime
- whoami: who you are logged in as
- finger: display information about user
- users/id: shows user information
- man command: shows manual of command
- username: shows your user name
- who /w: display who is online
+3) date: shows the current date and time
+4) cal: shows the months's calendar
+5)  uptime: show current uptime
+6) whoami: who you are logged in as
+7) finger: display information about user
+8) users/id: shows user information
+9) man command: shows manual of command
+10)  username: shows your user name
+11) who /w: display who is online
 
  VIEW FILES
  1) ls: directory listing
@@ -50,4 +50,9 @@ find command
         -name: for searching a file with its name
         -user: for files whose owner is a particular user
         -group:  for files belonging to particular group
- 
+        
+grep command
+  grep stands for global regular expression print.
+  it is used to pick out the required expression from the file and print the 
+   output.
+     syntax: grep <patron> filename
