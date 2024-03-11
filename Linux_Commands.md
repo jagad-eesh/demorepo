@@ -56,3 +56,12 @@ grep command
   it is used to pick out the required expression from the file and print the 
    output.
      syntax: grep <patron> filename
+
+USER MANAGEMENT
+# In linux there are three types of users
+# Super or Root user: User is the most powerful user. He is the adminstrator user.
+# Normal User: Normal Users are the users created by root user
+   TYPE              EXAMPLE     HOME DIRECTORY     SHELL
+   super user        root         /root              /bin/bash
+   system user       ftp,ssh,apache  /var/ftp, etc    /sbin/nologin
+   Normal user       visitor,ec2-user /home/username   /bin/bash
