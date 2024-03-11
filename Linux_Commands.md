@@ -61,7 +61,7 @@ USER MANAGEMENT
 # In linux there are three types of users
 # Super or Root user: User is the most powerful user. He is the adminstrator user.
 # Normal User: Normal Users are the users created by root user
-<<<<<<< HEAD
+
    TYPE              EXAMPLE     HOME DIRECTORY     SHELL
    super user        root         /root              /bin/bash
    system user       ftp,ssh,apache  /var/ftp, etc    /sbin/nologin
@@ -78,9 +78,8 @@ USER MANAGEMENT
   4) yum info <package name>
   5)  yum list available
   6)  yum list installed
-=======
+
    TYPE              EXAMPLE          HOME DIRECTORY     SHELL
    super user        root             /root              /bin/bash
    system user       ftp,ssh,apache   /var/ftp, etc    /sbin/nologin
    Normal user       visitor,ec2-user  /home/username   /bin/bash
->>>>>>> 3bdac84905031398cb8bc6116b1f3980e3320a0b
