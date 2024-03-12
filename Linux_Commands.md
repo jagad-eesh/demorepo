@@ -93,5 +93,14 @@ USER MANAGEMENT
     7)  tar -xvf dir1.tar
     8)  gzip dir1.tar
     9)  tar -xvzf apache-tomcat-9.0.86.tar.gz
-    
+# Copy files between servers
+ Windows to linux : mobaxterm or winscp
+ Linux to Linux
+ SCP(SECURE COPY)is command line utility that allows you to securely copy files and directories between two system
+ # scp source_file_name username@destination_host:destination_folder
+ EXAMPLE
+ 1) scp file1 root@10.20.30.40:/tmp
+ 2) scp file1 root@10.20.30.40:/tmp /home/ec2-user
+ 3)  scp test@172.31.15.95:/home/test/file2 /home/ec2-user
+
 
