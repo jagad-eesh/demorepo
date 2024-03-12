@@ -79,7 +79,19 @@ USER MANAGEMENT
   5)  yum list available
   6)  yum list installed
 
-   TYPE              EXAMPLE          HOME DIRECTORY     SHELL
-   super user        root             /root              /bin/bash
-   system user       ftp,ssh,apache   /var/ftp, etc    /sbin/nologin
-   Normal user       visitor,ec2-user  /home/username   /bin/bash
+  # Archiving files or directories
+   gzip: Create a compressed file
+   gunzip: unzip a file
+   tar: to extract a file
+    1)  gzip file1
+    2)  gunzip file1.gz
+    3)  yum install zip -y
+     4)  zip file1.zip file1
+    usually zip and gzip work on files not directories, for dir we are use tar command
+    5)  tar -cvf dir1.tar dir1
+    6)  rm -rf dir1
+    7)  tar -xvf dir1.tar
+    8)  gzip dir1.tar
+    9)  tar -xvzf apache-tomcat-9.0.86.tar.gz
+    
+
