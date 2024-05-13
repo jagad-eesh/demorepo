@@ -2,6 +2,7 @@
 2) ls / (/ means root) what and all dir are there in the root
 https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
 
+```commands
 3) date: shows the current date and time
 4) cal: shows the months's calendar
 5)  uptime: show current uptime
@@ -11,8 +12,8 @@ https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
 9) man command: shows manual of command
 10)  username: shows your user name
 11) who /w: display who is online
-
- VIEW FILES
+```
+ ``` VIEW FILES
  1) ls: directory listing
  2) cat filename: view file content
  3) less: view a file page by page
@@ -20,8 +21,9 @@ https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
  5) head: output of the first 10 lines of file
  6) tail: output of the last 10 lines of file
  7) page: display file page by page
-
- CREATE AND DELETE FILE/DIRECTORY
+```
+ ### CREATE AND DELETE FILE/DIRECTORY
+ ```
  1) touch: creates a 0 bite file
  2) cat>filename: create file and allow to write
  3) nano : create a file if file name is doesn't exist (control+o, press enter, 
@@ -31,8 +33,9 @@ https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
  6) mkdir: create a directory
  7) rmdir: remove a empty directory
  8) rm -rf: remove a directory
-
-Manging files or Directories
+```
+`Manging files or Directories`
+```commands
 1) cp: copy a file
 2) mv: move a file
 3) find: find a file
@@ -43,20 +46,20 @@ Manging files or Directories
 8) chmod: change file permission
 9) chown: change owner ship of file
 10) file: show what kind of file it is
-
-find command
+```
+-`find command`
   find command is used to find the files or directorie's path, it is exactly like the find option in windows where you can search for a file
-     syntax: find / -option filename
+     `syntax: find / -option filename`
         -name: for searching a file with its name
         -user: for files whose owner is a particular user
         -group:  for files belonging to particular group
         
-grep command
+```grep command
   grep stands for global regular expression print.
   it is used to pick out the required expression from the file and print the 
    output.
      syntax: grep <patron> filename
-
+```
 USER MANAGEMENT
 # In linux there are three types of users
 # Super or Root user: User is the most powerful user. He is the adminstrator user.
